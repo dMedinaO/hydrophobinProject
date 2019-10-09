@@ -1,0 +1,1334 @@
+BLASTP 2.2.31+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: sequenceDump
+           4,757 sequences; 889,006 total letters
+
+
+
+Query= 30 Unkown****
+
+Length=316
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+RKO95495.1  RKO95495.1 hypothetical protein CAUPRSCDRAFT_12802 [C...  25.8    1.6  
+RKO97167.1  RKO97167.1 hypothetical protein CAUPRSCDRAFT_11150 [C...  24.6    3.6  
+RKP00252.1  RKP00252.1 hypothetical protein CXG81DRAFT_27040 [Cau...  24.6    4.4  
+RKP04280.1  RKP04280.1 hypothetical protein CXG81DRAFT_23056 [Cau...  23.9    6.3  
+WP_041835044.1  WP_041835044.1 hypothetical protein [Acidothermus...  25.0    6.8  
+ABK53451.1  ABK53451.1 protease-like protein [Acidothermus cellul...  24.6    6.9  
+RKO98370.1  RKO98370.1 hypothetical protein CXG81DRAFT_21383 [Cau...  23.5    8.7  
+
+
+>RKO95495.1 RKO95495.1 hypothetical protein CAUPRSCDRAFT_12802 [Caulochytrium 
+protostelioides]
+Length=115
+
+ Score = 25.8 bits (55),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 17/71 (24%), Positives = 31/71 (44%), Gaps = 3/71 (4%)
+
+Query  84   LSLPAIYRSSTVVTATAGCPFWPGFASSGSLGCTDGISGVASPSLICPALSAAWLRERLR  143
+             ++  +  +  V+ AT G   W G   S S+ C +G +      +  P  SA  +   + 
+Sbjct  2    FAIKTLIAAVAVLGATNGALAWSG---SSSISCGNGSTSFCCSDVSSPDSSATGVLSGIL  58
+
+Query  144  NTYHMNMACNP  154
+            N  H+ + C+P
+Sbjct  59   NNIHVGVNCSP  69
+
+
+>RKO97167.1 RKO97167.1 hypothetical protein CAUPRSCDRAFT_11150 [Caulochytrium 
+protostelioides]
+Length=115
+
+ Score = 24.6 bits (52),  Expect = 3.6, Method: Compositional matrix adjust.
+ Identities = 16/71 (23%), Positives = 31/71 (44%), Gaps = 3/71 (4%)
+
+Query  84   LSLPAIYRSSTVVTATAGCPFWPGFASSGSLGCTDGISGVASPSLICPALSAAWLRERLR  143
+             ++  +  +  V+ AT G   W G   S ++ C +G +      +  P  SA  +   + 
+Sbjct  2    FAIKTLIAAVAVLGATNGALAWSG---SSAISCGNGSTSFCCSDVSSPDSSATGVLSGIL  58
+
+Query  144  NTYHMNMACNP  154
+            N  H+ + C+P
+Sbjct  59   NNIHVGVNCSP  69
+
+
+>RKP00252.1 RKP00252.1 hypothetical protein CXG81DRAFT_27040 [Caulochytrium 
+protostelioides]
+Length=115
+
+ Score = 24.6 bits (52),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 16/71 (23%), Positives = 31/71 (44%), Gaps = 3/71 (4%)
+
+Query  84   LSLPAIYRSSTVVTATAGCPFWPGFASSGSLGCTDGISGVASPSLICPALSAAWLRERLR  143
+             ++  +  +  V+ AT G   W G   S ++ C +G +      +  P  SA  +   + 
+Sbjct  2    FAIKTLIAAVAVLGATNGALAWSG---SSAISCGNGSTSFCCSDVSSPDSSATGVLSGIL  58
+
+Query  144  NTYHMNMACNP  154
+            N  H+ + C+P
+Sbjct  59   NNIHVGVNCSP  69
+
+
+>RKP04280.1 RKP04280.1 hypothetical protein CXG81DRAFT_23056 [Caulochytrium 
+protostelioides]
+Length=115
+
+ Score = 23.9 bits (50),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 16/60 (27%), Positives = 27/60 (45%), Gaps = 3/60 (5%)
+
+Query  95   VVTATAGCPFWPGFASSGSLGCTDGISGVASPSLICPALSAAWLRERLRNTYHMNMACNP  154
+            V+ AT G   W G   S ++ C +G +      +  P  SA  +   + N  H+ + C+P
+Sbjct  13   VLGATNGALAWSG---SSAISCGNGSTSFCCSDVSSPDSSATGVLSGILNNIHVGVNCSP  69
+
+
+>WP_041835044.1 WP_041835044.1 hypothetical protein [Acidothermus cellulolyticus]
+Length=1028
+
+ Score = 25.0 bits (53),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 19/43 (44%), Gaps = 0/43 (0%)
+
+Query  209  SSTVISRFVMLATLSRMSLQFDRLHCPCRVSTALPHRLTILRC  251
+            S+TV  + V L  L       DR     +++ AL    TIL C
+Sbjct  820  SATVEQQLVTLGYLPHRISGMDRFDTAVQIAHALGDPTTILEC  862
+
+
+>ABK53451.1 ABK53451.1 protease-like protein [Acidothermus cellulolyticus 
+11B]
+Length=1037
+
+ Score = 24.6 bits (52),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 14/43 (33%), Positives = 19/43 (44%), Gaps = 0/43 (0%)
+
+Query  209  SSTVISRFVMLATLSRMSLQFDRLHCPCRVSTALPHRLTILRC  251
+            S+TV  + V L  L       DR     +++ AL    TIL C
+Sbjct  829  SATVEQQLVTLGYLPHRISGMDRFDTAVQIAHALGDPTTILEC  871
+
+
+>RKO98370.1 RKO98370.1 hypothetical protein CXG81DRAFT_21383 [Caulochytrium 
+protostelioides]
+Length=117
+
+ Score = 23.5 bits (49),  Expect = 8.7, Method: Compositional matrix adjust.
+ Identities = 16/71 (23%), Positives = 30/71 (42%), Gaps = 1/71 (1%)
+
+Query  84   LSLPAIYRSSTVVTATAGCPFWPGFASSGSLGCTDGISGVASPSLICPALSAAWLRERLR  143
+             ++  +  +  V+ AT G    P  A   +L C +G +      +  P  SA  +   + 
+Sbjct  2    FAIKTLIAAGVVLGATTGALAGP-VAGDTALACGNGSTSYCCSQISSPDSSATGILSGIL  60
+
+Query  144  NTYHMNMACNP  154
+            N  H+ + C+P
+Sbjct  61   NNLHVGVNCSP  71
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.131    0.435    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 121629111
+
+
+Query= 52 Unkown****
+
+Length=246
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WP_131445448.1  WP_131445448.1 endopygalactorunase [Flaviaesturar...  24.3    7.4  
+
+
+>WP_131445448.1 WP_131445448.1 endopygalactorunase [Flaviaesturariibacter sp. 
+17J68-12]
+Length=984
+
+ Score = 24.3 bits (51),  Expect = 7.4, Method: Composition-based stats.
+ Identities = 8/15 (53%), Positives = 10/15 (67%), Gaps = 0/15 (0%)
+
+Query  89   EHAPAPPRVPPMAQA  103
+            EH P PPR P  A++
+Sbjct  961  EHEPVPPRRPAAAKS  975
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.129    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 88339173
+
+
+Query= 68 Unkown***
+
+Length=387
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+prf||1011193A  prf||1011193A 1G2 gene ORF                             26.2    0.96 
+CAA25366.1  CAA25366.1 1G2 protein [Schizophyllum commune]            24.6    3.9  
+RDI79052.1  RDI79052.1 hypothetical protein Vi05172_g10836 [Ventu...  24.3    5.9  
+D6RKE7  D6RKE7                                                        25.0    7.1  
+CAB39311.1  CAB39311.1 hydrophobin 4 [Passalora fulva]                24.6    7.7  
+I4YEZ9  I4YEZ9                                                        23.5    9.9  
+
+
+>prf||1011193A prf||1011193A 1G2 gene ORF
+Length=94
+
+ Score = 26.2 bits (56),  Expect = 0.96, Method: Composition-based stats.
+ Identities = 15/48 (31%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  121  IALSSSIPVSTAFSTASSTPTTVSNTLIATAATNPDNVSGAVIGGAVG  168
+            +A ++++P   A S  +S P    NTL+ T   +  N+ GA++G  +G
+Sbjct  13   LAAATAVPRGGA-SKCNSGPVQCCNTLVDTKDKHQTNIVGALLGLDLG  59
+
+
+>CAA25366.1 CAA25366.1 1G2 protein [Schizophyllum commune]
+Length=94
+
+ Score = 24.6 bits (52),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 15/48 (31%), Positives = 27/48 (56%), Gaps = 1/48 (2%)
+
+Query  121  IALSSSIPVSTAFSTASSTPTTVSNTLIATAATNPDNVSGAVIGGAVG  168
+            +A ++++P   A S  +S P    NTL+ T   +  N+ GA++G  +G
+Sbjct  13   LAAATAVPRGGA-SKCNSGPVQCCNTLVDTKDKHQTNIVGALLGLDLG  59
+
+
+>RDI79052.1 RDI79052.1 hypothetical protein Vi05172_g10836 [Venturia inaequalis]
+Length=94
+
+ Score = 24.3 bits (51),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 11/17 (65%), Gaps = 0/17 (0%)
+
+Query  11  PGDFFCPSGGTWYACET  27
+           P DF CP+GGT   C+ 
+Sbjct  23  PRDFKCPNGGTAQCCDV  39
+
+
+>D6RKE7 D6RKE7
+Length=2958
+
+ Score = 25.0 bits (53),  Expect = 7.1, Method: Compositional matrix adjust.
+ Identities = 15/49 (31%), Positives = 18/49 (37%), Gaps = 0/49 (0%)
+
+Query  106  FWDRPDQYYYFHDLNIALSSSIPVSTAFSTASSTPTTVSNTLIATAATN  154
+             W  PD+Y      +   S  IP S   S        +S  LIAT  T 
+Sbjct  274  LWTSPDEYGLLRSQDFPFSIRIPESIPPSVELDNRGQISYELIATVCTK  322
+
+
+>CAB39311.1 CAB39311.1 hydrophobin 4 [Passalora fulva]
+Length=228
+
+ Score = 24.6 bits (52),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 9/25 (36%), Positives = 14/25 (56%), Gaps = 1/25 (4%)
+
+Query  25   CETGTKFLGCCTADPCRDGCFGDIL  49
+            C  G++ + CCT D    G  G++L
+Sbjct  159  CAKGSE-ISCCTTDSSNSGALGNVL  182
+
+
+>I4YEZ9 I4YEZ9
+Length=105
+
+ Score = 23.5 bits (49),  Expect = 9.9, Method: Composition-based stats.
+ Identities = 21/79 (27%), Positives = 28/79 (35%), Gaps = 17/79 (22%)
+
+Query  24  ACETGTKFLGCCTADPCRDGCFG--DILRPAGRSSSLSGLSPGGTCGGETPMWTCDAAPT  81
+           +C TG+  + CC  D  ++   G  D L   G  +S  G+              CD  P 
+Sbjct  25  SCNTGS--IQCCNLDEKKETSTGKNDALISTGDIASQVGVQ-------------CDQIPL  69
+
+Query  82  FWGCCNGDPCMNNSTCPTG  100
+             G    D C N   C  G
+Sbjct  70  LIGVAIEDECKNTPVCCEG  88
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.131    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 154128834
+
+
+Query= 69 Unkown*** => remover segmento de peptido señal
+
+Length=455
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+KRX04496.1  KRX04496.1 Insulin-like growth factor binding protein...  37.0    0.002
+AWT58107.1  AWT58107.1 hydrophobin [Trichoderma harzianum]            26.9    1.7  
+AWT58096.1  AWT58096.1 hydrophobin [Trichoderma guizhouense]          26.9    1.8  
+B8P525  B8P525                                                        26.6    2.4  
+
+
+>KRX04496.1 KRX04496.1 Insulin-like growth factor binding protein, N-terminal 
+[Pseudocohnilembus persalinus]
+Length=1735
+
+ Score = 37.0 bits (84),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 31/80 (39%), Positives = 37/80 (46%), Gaps = 12/80 (15%)
+
+Query  339  YYPSGCCRVGRDCQTTGSSCALPTGTVVNTNGVVVVAPTTT-TG------SCPSAWYSCA  391
+            Y P+  C    DC+T   +  +   T  NTN V  V+P  T TG      SC S +Y  A
+Sbjct  375  YSPNNVCI--SDCETYTGNAMVNDPT--NTNCVSCVSPCATCTGDVNTCLSCVSGYYYLA  430
+
+Query  392  AD-AGGNCCPDGYACREQSC  410
+            AD A  N CPDGY      C
+Sbjct  431  ADQACYNPCPDGYGISGSDC  450
+
+
+ Score = 26.6 bits (57),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 31/139 (22%), Positives = 47/139 (34%), Gaps = 25/139 (18%)
+
+Query  280  CVNGRTCATGASCLGDDDSTSTRAPDAPVRPTSGTATTTGAGAIPSDDVCPAGFY-----  334
+            C++     TG + + D  +T+  +  +P    +G   T  +        C +G+Y     
+Sbjct  381  CISDCETYTGNAMVNDPTNTNCVSCVSPCATCTGDVNTCLS--------CVSGYYYLAAD  432
+
+Query  335  -VCSAYYPSGCCRVGRDCQTTGSSCALPTGTVVNTNGVVVVAPTTTTGSCPSA-WYSCAA  392
+              C    P G    G DC     S           N        TT  SCP+  +Y    
+Sbjct  433  QACYNPCPDGYGISGSDCLVCDPS----------YNCATCPNDITTCTSCPTGFYYKSDT  482
+
+Query  393  DAGGNCCPDGYACREQSCT  411
+            +     CP GY     +CT
+Sbjct  483  NECLAACPAGYYVNGDNCT  501
+
+
+>AWT58107.1 AWT58107.1 hydrophobin [Trichoderma harzianum]
+Length=283
+
+ Score = 26.9 bits (58),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 12/22 (55%), Positives = 13/22 (59%), Gaps = 0/22 (0%)
+
+Query  384  PSAWYSCAADAGGNCCPDGYAC  405
+            PS   SC AD  GN C +GY C
+Sbjct  81   PSVKQSCCADGSGNSCDEGYYC  102
+
+
+>AWT58096.1 AWT58096.1 hydrophobin [Trichoderma guizhouense]
+Length=277
+
+ Score = 26.9 bits (58),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 12/22 (55%), Positives = 13/22 (59%), Gaps = 0/22 (0%)
+
+Query  384  PSAWYSCAADAGGNCCPDGYAC  405
+            PS   SC AD  GN C +GY C
+Sbjct  81   PSVKQSCCADGSGNSCDEGYYC  102
+
+
+>B8P525 B8P525
+Length=302
+
+ Score = 26.6 bits (57),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 22/45 (49%), Positives = 29/45 (64%), Gaps = 4/45 (9%)
+
+Query  218  TSTTYIQPSSSTTSTSTSSTAAADPTTSSTPSTTP---EPTSSST  259
+            TS    +PS+  TS  T+ST AA PT SSTPS +P   +PT ++T
+Sbjct  144  TSAPPTEPSTPATS-PTASTPAASPTESSTPSASPGTTQPTDTAT  187
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.129    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 186101636
+
+
+Query= 80 Unkown***
+
+Length=287
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+PMB64239.1  PMB64239.1 Trihydrophobin [Beauveria bassiana]            28.9    0.30 
+tr|A0A169YKF5|A0A169YKF5_CORDF  tr|A0A169YKF5|A0A169YKF5_CORDF Tr...  27.3    1.0  
+WP_109573823.1  WP_109573823.1 PIG-L domain-containing protein [A...  26.2    2.2  
+XP_024406758.1  XP_024406758.1 hypothetical protein TGAM01_v20036...  24.3    3.1  
+CEJ88606.1  CEJ88606.1 hypothetical protein VHEMI04766 [Torrubiel...  25.4    3.9  
+A0A0H2RKZ8  A0A0H2RKZ8                                                25.0    4.0  
+PHH58775.1  PHH58775.1 hypothetical protein CDD81_4592 [Ophiocord...  25.0    4.0  
+KXH32540.1  KXH32540.1 hypothetical protein CSIM01_11125 [Colleto...  24.3    4.5  
+XP_018147847.1  XP_018147847.1 fungal hydrophobin domain-containi...  23.9    4.6  
+PQE25850.1  PQE25850.1 fungal hydrophobin domain-containing prote...  23.5    5.4  
+PNP46044.1  PNP46044.1 hypothetical protein TGAMA5MH_02079 [Trich...  24.3    6.0  
+KJZ80060.1  KJZ80060.1 hypothetical protein HIM_00774 [Hirsutella...  23.5    6.4  
+PHH82415.1  PHH82415.1 hypothetical protein CDD82_6103 [Ophiocord...  24.6    6.9  
+KIM42520.1  KIM42520.1 hypothetical protein M413DRAFT_10084 [Hebe...  23.5    7.0  
+tr|A0A2C5ZFI3|A0A2C5ZFI3_9HYPO  tr|A0A2C5ZFI3|A0A2C5ZFI3_9HYPO Un...  23.5    7.6  
+PWO15324.1  PWO15324.1 hydrophobin protein [Pyrenophora tritici-r...  23.9    7.8  
+EJP70900.1  EJP70900.1 Hydrophobin 2 [Beauveria bassiana ARSEF 2860]  24.3    8.3  
+XP_018174081.1  XP_018174081.1 fungal hydrophobin domain-containi...  23.1    9.6  
+CEJ95278.1  CEJ95278.1 hypothetical protein VHEMI10767 [Torrubiel...  24.3    9.9  
+PWI71837.1  PWI71837.1 hydrophobin precursor [Purpureocillium lil...  23.1    10.0 
+
+
+>PMB64239.1 PMB64239.1 Trihydrophobin [Beauveria bassiana]
+Length=734
+
+ Score = 28.9 bits (63),  Expect = 0.30, Method: Compositional matrix adjust.
+ Identities = 16/55 (29%), Positives = 26/55 (47%), Gaps = 7/55 (13%)
+
+Query  15   LYALEFCCAAVVLGIYSYFLAVEADRDANIPVWQQAVTGLAGAV---VLYCIFAV  66
+            LY+   CC+A VLG+    L ++ D  + IP+  +    +  AV      C+  V
+Sbjct  261  LYSNPQCCSADVLGV----LGLDCDSPSRIPISGENFKHICAAVGKEAKCCVIPV  311
+
+
+ Score = 26.9 bits (58),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 17/70 (24%), Positives = 27/70 (39%), Gaps = 14/70 (20%)
+
+Query  4    GGAALKFGSTALYALEFCCAAVVLGIYSYFLAVEADRDANIPVWQ------QAVTGLAGA  57
+            GG    +    LY++  CC+  VLG+        AD D ++P         + +    G 
+Sbjct  403  GGNNPSYCPPGLYSVAQCCSTDVLGV--------ADLDCSVPSSPPGKHSFKEICAEVGK  454
+
+Query  58   VVLYCIFAVL  67
+                C+  VL
+Sbjct  455  QAKCCVLPVL  464
+
+
+>tr|A0A169YKF5|A0A169YKF5_CORDF tr|A0A169YKF5|A0A169YKF5_CORDF Trihydrophobin OS=Cordyceps confragosa 
+RCEF 1005 OX=1081108 GN=LEL_01820 PE=4 SV=1
+Length=605
+
+ Score = 27.3 bits (59),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 15/57 (26%), Positives = 25/57 (44%), Gaps = 7/57 (12%)
+
+Query  13   TALYALEFCCAAVVLGIYSYFLAVEADRDANIPVWQ---QAVTGLAGAVVLYCIFAV  66
+            T LY+   CC+  VLG+    L ++    +  P      +++ G AG     C+  V
+Sbjct  409  TGLYSNAQCCSTDVLGV----LGLDCSSPSKTPTSGDDFKSICGAAGKQAKCCVLPV  461
+
+
+ Score = 26.2 bits (56),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 15/57 (26%), Positives = 24/57 (42%), Gaps = 7/57 (12%)
+
+Query  13   TALYALEFCCAAVVLGIYSYFLAVEADRDANIPVWQ---QAVTGLAGAVVLYCIFAV  66
+            T LY+   CC+  VLG+    L ++    +  P      +A+ G  G     C+  V
+Sbjct  280  TGLYSNAQCCSTDVLGV----LGLDCSSPSKTPTSGDDFKAICGADGKQAKCCVLPV  332
+
+
+>WP_109573823.1 WP_109573823.1 PIG-L domain-containing protein [Aminobacter sp. 
+AP02]
+Length=801
+
+ Score = 26.2 bits (56),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 14/37 (38%), Positives = 19/37 (51%), Gaps = 1/37 (3%)
+
+Query  115  LGDGPEDSKEGFGSNGQGDQV-TYSASLGTICKLNTA  150
+            LG GP+D    FG +  GDQ  T    + T+ +L  A
+Sbjct  104  LGHGPDDEVHDFGFSKDGDQTFTRWGEMRTVERLVRA  140
+
+
+>XP_024406758.1 XP_024406758.1 hypothetical protein TGAM01_v200366 [Trichoderma 
+gamsii]
+Length=83
+
+ Score = 24.3 bits (51),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 14/33 (42%), Positives = 18/33 (55%), Gaps = 8/33 (24%)
+
+Query  13  TALYALEFCCAAVVLGIYSYFLAVEADRDANIP  45
+           T LY+   CCAA VLG+        AD D ++P
+Sbjct  16  TGLYSNPQCCAADVLGV--------ADLDCDVP  40
+
+
+>CEJ88606.1 CEJ88606.1 hypothetical protein VHEMI04766 [Torrubiella hemipterigena]
+Length=1187
+
+ Score = 25.4 bits (54),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 12/32 (38%), Positives = 16/32 (50%), Gaps = 8/32 (25%)
+
+Query  15    LYALEFCCAAVVLGIYSYFLAVEADRDANIPV  46
+             LY+   CCA  VLG+        AD D  +P+
+Sbjct  1016  LYSQAQCCATDVLGV--------ADLDCKVPI  1039
+
+
+ Score = 24.6 bits (52),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 18/61 (30%), Positives = 22/61 (36%), Gaps = 15/61 (25%)
+
+Query  14   ALYALEFCCAAVVLGIYSYFLAVEADRDANIPVWQ-------QAVTGLAGAVVLYCIFAV  66
+            ALYA   CC+  VLG+        AD D   P           A    +G     C+  V
+Sbjct  785  ALYAQAQCCSVDVLGV--------ADVDCKTPPHGFDSKAGFDATCAESGQKARCCVIPV  836
+
+Query  67   L  67
+            L
+Sbjct  837  L  837
+
+
+>A0A0H2RKZ8 A0A0H2RKZ8
+Length=199
+
+ Score = 25.0 bits (53),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 21/63 (33%), Positives = 30/63 (48%), Gaps = 8/63 (13%)
+
+Query  60   LYCIFAVLLTCCLGGKTIFAILGILFD----ILCCGAMIAIAVMTRDGASSCSGNVETPL  115
+            LYC  +V+ +    G TI A+LG++ D     L C  +  I +    G SSCS  +    
+Sbjct  18   LYCCNSVISSTSTPGSTILALLGVIPDGNLMGLTCSPVTVIGI----GDSSCSSQIVCCT  73
+
+Query  116  GDG  118
+            GD 
+Sbjct  74   GDN  76
+
+
+>PHH58775.1 PHH58775.1 hypothetical protein CDD81_4592 [Ophiocordyceps australis]
+Length=352
+
+ Score = 25.0 bits (53),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 15/45 (33%), Positives = 19/45 (42%), Gaps = 14/45 (31%)
+
+Query  12   STALYALEFCCAAVVLGIYSY--------------FLAVEADRDA  42
+            S  L++ E CCA   LGI S               F ++ ADR A
+Sbjct  286  SPGLFSSEQCCAVDALGIISLDCYSPSSMPSGPKDFQSICADRGA  330
+
+
+>KXH32540.1 KXH32540.1 hypothetical protein CSIM01_11125 [Colletotrichum 
+simmondsii]
+Length=103
+
+ Score = 24.3 bits (51),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 14/42 (33%), Positives = 19/42 (45%), Gaps = 0/42 (0%)
+
+Query  4   GGAALKFGSTALYALEFCCAAVVLGIYSYFLAVEADRDANIP  45
+           GG+A     + LY+   CCA  VLG+     A       N+P
+Sbjct  25  GGSAPYVACSGLYSSLQCCATDVLGVADLDCASPPPTATNVP  66
+
+
+>XP_018147847.1 XP_018147847.1 fungal hydrophobin domain-containing protein [Pochonia 
+chlamydosporia 170]
+Length=93
+
+ Score = 23.9 bits (50),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 14/37 (38%), Positives = 19/37 (51%), Gaps = 1/37 (3%)
+
+Query  15  LYALEFCCAAVVLGIYSYFLAVEADRDANIPVWQQAV  51
+           LY+L  CCA  VLG+      V + R  N P   ++V
+Sbjct  30  LYSLPRCCATFVLGVIGLDCTVPS-RTPNSPADLRSV  65
+
+
+>PQE25850.1 PQE25850.1 fungal hydrophobin domain-containing protein [Rutstroemia 
+sp. NJR-2017a BBW]
+Length=72
+
+ Score = 23.5 bits (49),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 14/37 (38%), Positives = 18/37 (49%), Gaps = 8/37 (22%)
+
+Query  15  LYALEFCCAAVVLGIYSYFLAVEADRDANIPVWQQAV  51
+           LY++  CCA  VLG+        AD D + P    AV
+Sbjct  44  LYSVAQCCATDVLGV--------ADLDCSTPNSSAAV  72
+
+
+>PNP46044.1 PNP46044.1 hypothetical protein TGAMA5MH_02079 [Trichoderma gamsii]
+Length=176
+
+ Score = 24.3 bits (51),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 17/34 (50%), Gaps = 8/34 (24%)
+
+Query  12   STALYALEFCCAAVVLGIYSYFLAVEADRDANIP  45
+             T LY    CCAA VLG+        AD D ++P
+Sbjct  108  PTGLYTNPQCCAADVLGL--------ADLDCDVP  133
+
+
+>KJZ80060.1 KJZ80060.1 hypothetical protein HIM_00774 [Hirsutella minnesotensis 
+3608]
+Length=97
+
+ Score = 23.5 bits (49),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 10/21 (48%), Positives = 13/21 (62%), Gaps = 0/21 (0%)
+
+Query  9   KFGSTALYALEFCCAAVVLGI  29
+           +F    LYA+  CCA  VLG+
+Sbjct  29  RFCPVGLYAVPQCCATDVLGL  49
+
+
+>PHH82415.1 PHH82415.1 hypothetical protein CDD82_6103 [Ophiocordyceps australis]
+Length=393
+
+ Score = 24.6 bits (52),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 27/98 (28%), Positives = 37/98 (38%), Gaps = 12/98 (12%)
+
+Query  173  KRHHKKEKAFGPG---PSNGYTKGSGMKFWQRRKANRVTEHRDPEVA---AVPASGGLAP  226
+            +RHH+   +  PG   PSNG   G           N  +E + P      + P  G   P
+Sbjct  26   QRHHRPGYSNPPGYYPPSNGVQPGGSDNSG--NGDNPPSEGQPPSTPGNGSQPQPGTSIP  83
+
+Query  227  PATTHDYRPSNDTAYTGSTVAA----PHSGFESNKPAG  260
+            P+T    +P   T+   ST       P SG   + P G
+Sbjct  84   PSTPGGAQPQPGTSIPPSTPGGSQPQPGSGKPPSTPGG  121
+
+
+>KIM42520.1 KIM42520.1 hypothetical protein M413DRAFT_10084 [Hebeloma cylindrosporum 
+h7]
+Length=106
+
+ Score = 23.5 bits (49),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 21/61 (34%), Positives = 28/61 (46%), Gaps = 3/61 (5%)
+
+Query  6   AALKFGSTALYALEFCCAAVVLGIYSYFLAVEADRDANIPVWQQAVTGLAGAVVLYCIFA  65
+           A L  G+TA  AL  CC   V+GI S   A       NIP +++  +   G     C+ A
+Sbjct  38  ARLCNGNTASNAL--CCGTGVIGILSLDCATPTSLPKNIPDFKKICSSY-GQQAQCCLLA  94
+
+Query  66  V  66
+           V
+Sbjct  95  V  95
+
+
+>tr|A0A2C5ZFI3|A0A2C5ZFI3_9HYPO tr|A0A2C5ZFI3|A0A2C5ZFI3_9HYPO Uncharacterized protein OS=Cordyceps 
+sp. RAO-2017 OX=2004951 GN=CDD83_3931 PE=4 SV=1
+Length=104
+
+ Score = 23.5 bits (49),  Expect = 7.6, Method: Compositional matrix adjust.
+ Identities = 12/33 (36%), Positives = 16/33 (48%), Gaps = 0/33 (0%)
+
+Query  215  VAAVPASGGLAPPATTHDYRPSNDTAYTGSTVA  247
+            V A PA G   P    H Y+P +   + GS+ A
+Sbjct  10   VLASPAPGRYEPYPPAHKYQPCSKAGFFGSSPA  42
+
+
+>PWO15324.1 PWO15324.1 hydrophobin protein [Pyrenophora tritici-repentis]
+Length=158
+
+ Score = 23.9 bits (50),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 15/30 (50%), Gaps = 0/30 (0%)
+
+Query  15  LYALEFCCAAVVLGIYSYFLAVEADRDANI  44
+           LY+   CCA  VLG      AV A   AN+
+Sbjct  29  LYSNPQCCATDVLGAIGLDCAVPATTPANV  58
+
+
+>EJP70900.1 EJP70900.1 Hydrophobin 2 [Beauveria bassiana ARSEF 2860]
+Length=299
+
+ Score = 24.3 bits (51),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 13/33 (39%), Positives = 17/33 (52%), Gaps = 8/33 (24%)
+
+Query  13   TALYALEFCCAAVVLGIYSYFLAVEADRDANIP  45
+            + LY+   CCAA VLG+        AD D + P
+Sbjct  234  SGLYSNPQCCAANVLGL--------ADLDCSTP  258
+
+
+>XP_018174081.1 XP_018174081.1 fungal hydrophobin domain-containing protein [Purpureocillium 
+lilacinum]
+Length=95
+
+ Score = 23.1 bits (48),  Expect = 9.6, Method: Compositional matrix adjust.
+ Identities = 9/15 (60%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  15  LYALEFCCAAVVLGI  29
+           LY++E CCA  VLG+
+Sbjct  32  LYSVEQCCATDVLGV  46
+
+
+>CEJ95278.1 CEJ95278.1 hypothetical protein VHEMI10767 [Torrubiella hemipterigena]
+Length=719
+
+ Score = 24.3 bits (51),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 17/61 (28%), Positives = 22/61 (36%), Gaps = 15/61 (25%)
+
+Query  14   ALYALEFCCAAVVLGIYSYFLAVEADRDANIPVWQ-------QAVTGLAGAVVLYCIFAV  66
+            ALY+   CC+  VLG+        AD D   P          +A     G     C+  V
+Sbjct  222  ALYSQAQCCSVDVLGV--------ADLDCKTPSHGFDSKAGFEATCAETGQQARCCVIPV  273
+
+Query  67   L  67
+            L
+Sbjct  274  L  274
+
+
+>PWI71837.1 PWI71837.1 hydrophobin precursor [Purpureocillium lilacinum]
+Length=95
+
+ Score = 23.1 bits (48),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 9/15 (60%), Positives = 12/15 (80%), Gaps = 0/15 (0%)
+
+Query  15  LYALEFCCAAVVLGI  29
+           LY++E CCA  VLG+
+Sbjct  32  LYSVEQCCATDVLGV  46
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 108253640
+
+
+Query= 88 Unkown***
+
+Length=328
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+V5F1F3  V5F1F3                                                        25.4    2.4  
+A0A1C7LLK2  A0A1C7LLK2                                                23.9    9.2  
+
+
+>V5F1F3 V5F1F3
+Length=115
+
+ Score = 25.4 bits (54),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 17/54 (31%), Positives = 24/54 (44%), Gaps = 7/54 (13%)
+
+Query  233  SRGRQTSRYSKSLAPLTASCTVLRDGPCG-------TAGIGFSFPRTETCESHP  279
+            S+ +Q  +   +LA L  +   L DG  G        AG+G S     TC+S P
+Sbjct  40   SQVKQGKQAQDALAGLGLAFNELLDGAIGLDCQQIPIAGVGASLALQNTCKSQP  93
+
+
+>A0A1C7LLK2 A0A1C7LLK2
+Length=187
+
+ Score = 23.9 bits (50),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 13/36 (36%), Positives = 16/36 (44%), Gaps = 4/36 (11%)
+
+Query  7   MRGRRSWAEAAESSQQHAWPVFQPLQWQPFSANCSA  42
+           M GR +W  +  SS    WP     Q+ P SA  S 
+Sbjct  1   MLGRENWIVSGASSISAEWPS----QYYPVSATSSG  32
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.130    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 126094608
+
+
+Query= 89 Unkown***
+
+Length=358
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WP_062689428.1  WP_062689428.1 chitinase [Photobacterium sanguini...  26.9    1.7  
+S7RG52  S7RG52                                                        24.6    2.9  
+A0A094E1X9  A0A094E1X9                                                24.6    10.0 
+
+
+>WP_062689428.1 WP_062689428.1 chitinase [Photobacterium sanguinicancri]
+Length=781
+
+ Score = 26.9 bits (58),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 12/42 (29%), Positives = 21/42 (50%), Gaps = 0/42 (0%)
+
+Query  110  ALAAPDIFADFEPAIARGQGEVYAAMPTSPPEGSPALFRRQD  151
+            +L  PD+++ ++  I  G+ E     PT  P  +  L + QD
+Sbjct  106  SLLHPDVYSSWDFHILWGELEYIHQYPTDEPWNADQLKKVQD  147
+
+
+>S7RG52 S7RG52
+Length=78
+
+ Score = 24.6 bits (52),  Expect = 2.9, Method: Compositional matrix adjust.
+ Identities = 22/73 (30%), Positives = 36/73 (49%), Gaps = 13/73 (18%)
+
+Query  257  CSSAYTSCQIDAASCTTALANGAAGVTISAPNG--GATITAIPSVGLQSAQSIC------  308
+            C +  T+   DAA+  + L     G+TI+ P    G   TA+P+VG Q +  +C      
+Sbjct  11   CDNVTTADDPDAAALISLL-----GITIADPTTPLGLGCTALPAVGCQDSTPVCCENNNY  65
+
+Query  309  SSLSSLGCSQLTV  321
+            + L ++GC  + V
+Sbjct  66   NGLVNIGCVAINV  78
+
+
+>A0A094E1X9 A0A094E1X9
+Length=733
+
+ Score = 24.6 bits (52),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 16/27 (59%), Gaps = 1/27 (4%)
+
+Query  241  FYPFPYIPTTYENAAACSSAYTSCQID  267
+            FYPF  + + YEN  AC++    C+ D
+Sbjct  476  FYPFCAVFSLYENILACAN-LEECEQD  501
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.129    0.404    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 141347988
+
+
+Query= 94 Unkown***
+
+Length=264
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.132    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 96340560
+
+
+Query= 96 Unkown***
+
+Length=201
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WP_037286909.1  WP_037286909.1 hypothetical protein, partial [Sac...  27.3    0.60 
+A0A1V6USJ1  A0A1V6USJ1                                                24.6    3.0  
+A0A1E3B873  A0A1E3B873                                                24.3    3.4  
+A0A1S9DPW4  A0A1S9DPW4                                                24.6    3.6  
+KRX04496.1  KRX04496.1 Insulin-like growth factor binding protein...  23.5    9.5  
+
+
+>WP_037286909.1 WP_037286909.1 hypothetical protein, partial [Saccharibacillus 
+sacchari]
+Length=2115
+
+ Score = 27.3 bits (59),  Expect = 0.60, Method: Compositional matrix adjust.
+ Identities = 19/53 (36%), Positives = 22/53 (42%), Gaps = 0/53 (0%)
+
+Query  100   GNQCGGVVNVAQVTTVTVYPQQQTVYAQPPQTTVYQHPDPAQGGFCATITMDG  152
+             G Q G VVNV +V  +T      TV A      V    D A G     +T DG
+Sbjct  1972  GLQAGDVVNVYEVGDLTTSIGTGTVAADGTSVVVNTDLDAAGGEIVVIVTRDG  2024
+
+
+>A0A1V6USJ1 A0A1V6USJ1
+Length=198
+
+ Score = 24.6 bits (52),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 13/34 (38%), Positives = 17/34 (50%), Gaps = 0/34 (0%)
+
+Query  37   PFSGAVYIVNPDGQQVVAQDANWCPSSASVSCSN  70
+            P SGA   V P+ +  V    N C + A +SC N
+Sbjct  76   PGSGAAAGVTPESENKVKNAVNQCGNGAHMSCCN  109
+
+
+>A0A1E3B873 A0A1E3B873
+Length=131
+
+ Score = 24.3 bits (51),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 23/75 (31%), Positives = 29/75 (39%), Gaps = 23/75 (31%)
+
+Query  1   MRFLAPWSLLVSSLTFCTAEPIAKAKAIPQQLTNNAPFSGAVYIVNPDGQQVVAQDANWC  60
+           M+FLA  + L ++L            AIP   T + P           GQ  + Q  N C
+Sbjct  1   MKFLAITTFLATAL------------AIP---TESCPKDA--------GQVTLKQAQNKC  37
+
+Query  61  PSSASVSCSNVNYPS  75
+            S A VSC N    S
+Sbjct  38  GSQAKVSCCNKKIES  52
+
+
+>A0A1S9DPW4 A0A1S9DPW4
+Length=894
+
+ Score = 24.6 bits (52),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 24/93 (26%), Positives = 32/93 (34%), Gaps = 23/93 (25%)
+
+Query  18  TAEPIAKAKAIPQQLTNN---------APFSGAVYIVNPDGQQVVAQDANWCPSSASVSC  68
+           +A+P A+    P Q             +P  G + +V PD    V    N      S   
+Sbjct  18  SADPTAQCDNGPVQCCATVGLPTDSVVSPLLGLLGVVVPDMSTPVGLTCNPIVQGGS---  74
+
+Query  69  SNVNYPSWCCPANYECAAPANSNGL--IGCCPV  99
+                    CP +  C    N NGL  +GC PV
+Sbjct  75  ---------CPGHPVCCTGNNFNGLLALGCTPV  98
+
+
+>KRX04496.1 KRX04496.1 Insulin-like growth factor binding protein, N-terminal 
+[Pseudocohnilembus persalinus]
+Length=1735
+
+ Score = 23.5 bits (49),  Expect = 9.5, Method: Composition-based stats.
+ Identities = 13/43 (30%), Positives = 16/43 (37%), Gaps = 4/43 (9%)
+
+Query  58   NWCPSSASVSCSNVNYPSWCCPANYECAAPANSNGLIGCCPVG  100
+            N CP    +S S+       C  +Y CA   N       CP G
+Sbjct  437  NPCPDGYGISGSDC----LVCDPSYNCATCPNDITTCTSCPTG  475
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 67061106
+
+
+Query= 98 Unkown***
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+ERF74551.1  ERF74551.1 hypothetical protein EPUS_00681 [Endocarpo...  26.2    0.75 
+TFK68177.1  TFK68177.1 fungal hydrophobin [Pluteus cervinus]          23.1    4.6  
+E0WHQ7  E0WHQ7                                                        22.7    5.6  
+
+
+>ERF74551.1 ERF74551.1 hypothetical protein EPUS_00681 [Endocarpon pusillum 
+Z07020]
+Length=1406
+
+ Score = 26.2 bits (56),  Expect = 0.75, Method: Compositional matrix adjust.
+ Identities = 17/59 (29%), Positives = 30/59 (51%), Gaps = 7/59 (12%)
+
+Query  76   EASHVSTSSTLYPRHEAMSSLVGQNCAEAEGWSIALTVWGLRVSSRPSLTTPTISLALN  134
+            EA HV+       R+   ++L  +  A AE   ++++V     SS P  ++PT+S+ L 
+Sbjct  429  EAEHVT-------RNSVFNTLKPKPTASAESLPVSISVPDEAKSSHPGDSSPTLSVELK  480
+
+
+>TFK68177.1 TFK68177.1 fungal hydrophobin [Pluteus cervinus]
+Length=107
+
+ Score = 23.1 bits (48),  Expect = 4.6, Method: Compositional matrix adjust.
+ Identities = 11/27 (41%), Positives = 15/27 (56%), Gaps = 0/27 (0%)
+
+Query  75   QEASHVSTSSTLYPRHEAMSSLVGQNC  101
+            Q+AS VS  S L      ++ L+G NC
+Sbjct  42   QDASDVSNLSGLLGVAAPITGLIGMNC  68
+
+
+>E0WHQ7 E0WHQ7
+Length=107
+
+ Score = 22.7 bits (47),  Expect = 5.6, Method: Compositional matrix adjust.
+ Identities = 12/37 (32%), Positives = 17/37 (46%), Gaps = 0/37 (0%)
+
+Query  84   STLYPRHEAMSSLVGQNCAEAEGWSIALTVWGLRVSS  120
+            +T  P +   S+ VG NC  A       T  G ++SS
+Sbjct  14   ATAVPTNSPPSAQVGDNCGNANSIHCCDTETGNKISS  50
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.130    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 36383094
+
+
+Query= 108 Unkown***
+
+Length=464
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+A0A179FJS1  A0A179FJS1                                                25.0    3.7  
+WP_036653085.1  WP_036653085.1 tandem-95 repeat protein [Paenibac...  26.2    4.5  
+E2LYX9  E2LYX9                                                        24.3    8.2  
+A0A0C9YGJ1  A0A0C9YGJ1                                                24.3    9.6  
+
+
+>A0A179FJS1 A0A179FJS1
+Length=104
+
+ Score = 25.0 bits (53),  Expect = 3.7, Method: Composition-based stats.
+ Identities = 13/31 (42%), Positives = 16/31 (52%), Gaps = 1/31 (3%)
+
+Query  16  SSGINGLIAACNKNDRFKLLQDGSILSGNLD  46
+           S G N ++  CN     KL   G +LS NLD
+Sbjct  24  SCGANSVVKCCNSQTADKLFNKGGLLS-NLD  53
+
+
+>WP_036653085.1 WP_036653085.1 tandem-95 repeat protein [Paenibacillus pini]
+Length=1430
+
+ Score = 26.2 bits (56),  Expect = 4.5, Method: Composition-based stats.
+ Identities = 17/39 (44%), Positives = 21/39 (54%), Gaps = 7/39 (18%)
+
+Query  202   LLATTLVHEIVHAVGVLQRGNLSE-PHIRPDCPETEWGY  239
+             L A TL++   HA   L RG L E P   PD P + WG+
+Sbjct  1367  LEAVTLIN---HA---LFRGPLQEAPQSFPDIPSSHWGF  1399
+
+
+>E2LYX9 E2LYX9
+Length=115
+
+ Score = 24.3 bits (51),  Expect = 8.2, Method: Composition-based stats.
+ Identities = 8/16 (50%), Positives = 9/16 (56%), Gaps = 0/16 (0%)
+
+Query  406  GENRSKASTTCCQHTQ  421
+            G N   A T CCQH +
+Sbjct  83   GGNSCNAQTVCCQHNE  98
+
+
+>A0A0C9YGJ1 A0A0C9YGJ1
+Length=129
+
+ Score = 24.3 bits (51),  Expect = 9.6, Method: Composition-based stats.
+ Identities = 14/37 (38%), Positives = 19/37 (51%), Gaps = 1/37 (3%)
+
+Query  390  TLPVRMQQVLRHP-LQYGENRSKASTTCCQHTQRVLA  425
+            T PVR+  +LRHP L   E   +A +T     Q +L 
+Sbjct  46   TYPVRVMALLRHPTLGTDELHGQADSTGVAAIQALLG  82
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 190592024
+
+
+Query= 138 Unkown***
+
+Length=370
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+AFG37850.1  AFG37850.1 hypothetical protein Spiaf_1793 [Spirochae...  27.7    1.2  
+WP_041397223.1  WP_041397223.1 hypothetical protein [Spirochaeta ...  27.7    1.2  
+WP_110826787.1  WP_110826787.1 endopygalactorunase [Pedobacter nu...  26.9    1.7  
+XP_018663607.1  XP_018663607.1 hydrophobin [Trichoderma gamsii]       23.5    9.2  
+
+
+>AFG37850.1 AFG37850.1 hypothetical protein Spiaf_1793 [Spirochaeta africana 
+DSM 8902]
+Length=5749
+
+ Score = 27.7 bits (60),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 26/79 (33%), Positives = 33/79 (42%), Gaps = 5/79 (6%)
+
+Query  212  RWQEEGWEGEGGGGKIASSDEALAGLMPPDIEHVASIAAMEWKVAADKEEEVLKFYYDVV  271
+            R Q EG EGE  G    S +  LA  +P   E    IAA      A+ ++     Y  VV
+Sbjct  792  RLQHEGAEGEPAG----SPEVQLADGLPAS-ELWQPIAAGSTASGAELQQSASGIYLLVV  846
+
+Query  272  GPTIASSPDVLRFRLFKID  290
+                 +    L  RLF+ID
+Sbjct  847  SAVDQAGNTSLAHRLFRID  865
+
+
+>WP_041397223.1 WP_041397223.1 hypothetical protein [Spirochaeta africana]
+Length=5760
+
+ Score = 27.7 bits (60),  Expect = 1.2, Method: Composition-based stats.
+ Identities = 26/79 (33%), Positives = 33/79 (42%), Gaps = 5/79 (6%)
+
+Query  212  RWQEEGWEGEGGGGKIASSDEALAGLMPPDIEHVASIAAMEWKVAADKEEEVLKFYYDVV  271
+            R Q EG EGE  G    S +  LA  +P   E    IAA      A+ ++     Y  VV
+Sbjct  803  RLQHEGAEGEPAG----SPEVQLADGLPAS-ELWQPIAAGSTASGAELQQSASGIYLLVV  857
+
+Query  272  GPTIASSPDVLRFRLFKID  290
+                 +    L  RLF+ID
+Sbjct  858  SAVDQAGNTSLAHRLFRID  876
+
+
+>WP_110826787.1 WP_110826787.1 endopygalactorunase [Pedobacter nutrimenti]
+Length=943
+
+ Score = 26.9 bits (58),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 17/49 (35%), Positives = 25/49 (51%), Gaps = 5/49 (10%)
+
+Query  129  YIPRTRN---PNAAHNI--HCEVTASGMENEPVGKLDSPWPWMTVYEIR  172
+            YIPR  +    NA  N+    EVT   +E + VG++ S +P+  V   R
+Sbjct  154  YIPRGIDMDPENAFVNVIGRGEVTLKDLEKQSVGRIGSLYPYRKVGTFR  202
+
+
+>XP_018663607.1 XP_018663607.1 hydrophobin [Trichoderma gamsii]
+Length=86
+
+ Score = 23.5 bits (49),  Expect = 9.2, Method: Composition-based stats.
+ Identities = 10/31 (32%), Positives = 14/31 (45%), Gaps = 0/31 (0%)
+
+Query  5   FPMKRVERGVQARRCCTSHGQVPFITVVPAS  35
+           FP   +  G   +  C S G+ P   V PA+
+Sbjct  43  FPNNGILDGPSFQAACDSEGKQPLCCVAPAA  73
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 145566121
+
+
+Query= 150 Unkown***
+
+Length=374
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WP_135390585.1  WP_135390585.1 hypothetical protein [Methanolobus...  27.3    1.6  
+WP_078667544.1  WP_078667544.1 endopygalactorunase [Chitinophaga ...  26.6    2.5  
+WP_107685878.1  WP_107685878.1 endopygalactorunase [Niastella pop...  25.4    5.7  
+OQP56665.1  OQP56665.1 endopygalactorunase [Niastella populi]         25.4    6.1  
+
+
+>WP_135390585.1 WP_135390585.1 hypothetical protein [Methanolobus sp. SY-01]
+Length=1493
+
+ Score = 27.3 bits (59),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 25/120 (21%), Positives = 45/120 (38%), Gaps = 5/120 (4%)
+
+Query  75   PVVSSGSLEVDPPKVKKEQDGVKTRVAKPLPQRREELINSSKHLGAEVPLTPYVYAEQKT  134
+            P+ SSG+LE+DP       D    +  K + +  E + N    +G     T     +  +
+Sbjct  106  PITSSGTLELDPVSANNNTD----QNIKMVYRAGENITNGMVRIGIPAEFTVNDTMDTLS  161
+
+Query  135  MPKQQQKSIKEEKHGPYLGKAIDTIPTPS-TPNQPFVFLAGNSTLDETPKKRFPPSSSSS  193
+            +  + Q ++ +  +  Y    I TI   +   NQ         +LD      F   + +S
+Sbjct  162  VANEPQTTVADNNNASYDANNILTITNLTINENQEINLTLATRSLDFAGTYHFTAGAKNS  221
+
+
+>WP_078667544.1 WP_078667544.1 endopygalactorunase [Chitinophaga eiseniae]
+Length=989
+
+ Score = 26.6 bits (57),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 11/32 (34%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+
+Query  7    LFCCCSRRHRLYEETLVEYSYVPSGQPVKELL  38
+             F   S R R+   T+ +Y++V  G+   ELL
+Sbjct  755  FFISISNRGRVLGATVGQYTFVEEGRKRTELL  786
+
+
+>WP_107685878.1 WP_107685878.1 endopygalactorunase [Niastella populi]
+Length=970
+
+ Score = 25.4 bits (54),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 10/32 (31%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+
+Query  7    LFCCCSRRHRLYEETLVEYSYVPSGQPVKELL  38
+             F   S R R+   T+ +Y++  +G+   ELL
+Sbjct  748  FFISISNRGRVLGATVGKYAFTDNGENHNELL  779
+
+
+>OQP56665.1 OQP56665.1 endopygalactorunase [Niastella populi]
+Length=994
+
+ Score = 25.4 bits (54),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 10/32 (31%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+
+Query  7    LFCCCSRRHRLYEETLVEYSYVPSGQPVKELL  38
+             F   S R R+   T+ +Y++  +G+   ELL
+Sbjct  772  FFISISNRGRVLGATVGKYAFTDNGENHNELL  803
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.129    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 147580877
+
+
+Query= 154 Protein of unknown function (DUF3435)**
+
+Length=1323
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+B8P525  B8P525                                                        28.1    3.0  
+TAI09833.1  TAI09833.1 hypothetical protein ES071_21750, partial ...  25.0    7.1  
+A0A0C2S3H4  A0A0C2S3H4                                                25.8    7.4  
+A0A1V6UEN0  A0A1V6UEN0                                                25.8    7.5  
+A0A1V6RTX1  A0A1V6RTX1                                                25.4    9.0  
+A0A135LT09  A0A135LT09                                                25.4    9.5  
+
+
+>B8P525 B8P525
+Length=302
+
+ Score = 28.1 bits (61),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 22/63 (35%), Positives = 28/63 (44%), Gaps = 8/63 (13%)
+
+Query  1121  PSRFQDPPTITTTPAAPPNDHLNSAPET-----VASPCTERDADK---NAKTYYVQAAAT  1172
+             PS    PPT  +TPA  P     +A  T      ASP T +  D    +A   +  A+AT
+Sbjct  141   PSPTSAPPTEPSTPATSPTASTPAASPTESSTPSASPGTTQPTDTATPSASPTWTPASAT  200
+
+Query  1173  PHS  1175
+             P S
+Sbjct  201   PTS  203
+
+
+>TAI09833.1 TAI09833.1 hypothetical protein ES071_21750, partial [Bacillus 
+velezensis]
+Length=75
+
+ Score = 25.0 bits (53),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 10/25 (40%), Positives = 12/25 (48%), Gaps = 0/25 (0%)
+
+Query  1213  GGHFYIYNSVDAASQKVPEPQGTGC  1237
+             G  FY   S+D A +  P  Q  GC
+Sbjct  50    GNKFYAEASIDVAKRSTPPTQPCGC  74
+
+
+>A0A0C2S3H4 A0A0C2S3H4
+Length=109
+
+ Score = 25.8 bits (55),  Expect = 7.4, Method: Composition-based stats.
+ Identities = 13/39 (33%), Positives = 21/39 (54%), Gaps = 1/39 (3%)
+
+Query  880  DNDDPD-TDCETAGPKDSSEGLQGNTCIALEQVVHPLQS  917
+            D   PD  D +   P D+S+G  G+ C  +E +V  L++
+Sbjct  41   DPSRPDGVDPDDRNPSDNSQGKTGSQCFPIELIVGGLEN  79
+
+
+>A0A1V6UEN0 A0A1V6UEN0
+Length=118
+
+ Score = 25.8 bits (55),  Expect = 7.5, Method: Composition-based stats.
+ Identities = 14/45 (31%), Positives = 20/45 (44%), Gaps = 0/45 (0%)
+
+Query  144  SALPRYHALSFNRTSPTAISETSATSVSALAIAATTLTRPTTPAI  188
+            SALP+   LS  R+  T  S+   +      +   TLT P  P +
+Sbjct  18   SALPQESNLSVKRSDSTESSKPDTSECVGPLLCCGTLTTPLDPIV  62
+
+
+>A0A1V6RTX1 A0A1V6RTX1
+Length=118
+
+ Score = 25.4 bits (54),  Expect = 9.0, Method: Composition-based stats.
+ Identities = 13/45 (29%), Positives = 19/45 (42%), Gaps = 0/45 (0%)
+
+Query  144  SALPRYHALSFNRTSPTAISETSATSVSALAIAATTLTRPTTPAI  188
+            SALP+   LS  R+  T   +   +      +   TLT P  P +
+Sbjct  18   SALPQESNLSLKRSESTESHKPDTSECVGTLLCCGTLTTPLDPVV  62
+
+
+>A0A135LT09 A0A135LT09
+Length=118
+
+ Score = 25.4 bits (54),  Expect = 9.5, Method: Composition-based stats.
+ Identities = 13/45 (29%), Positives = 19/45 (42%), Gaps = 0/45 (0%)
+
+Query  144  SALPRYHALSFNRTSPTAISETSATSVSALAIAATTLTRPTTPAI  188
+            SALP+   LS  R+     S+   +      +   TLT P  P +
+Sbjct  18   SALPQESNLSLKRSDSAETSKPDTSECVGPLLCCGTLTTPLDPVV  62
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.134    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 568260108
+
+
+Query= 158 Unkown**
+
+Length=192
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+KRX04496.1  KRX04496.1 Insulin-like growth factor binding protein...  26.6    0.88 
+PVG00407.1  PVG00407.1 hypothetical protein CPB86DRAFT_224458 [Se...  23.9    3.4  
+tr|A0A1J5E087|A0A1J5E087_9DELT  tr|A0A1J5E087|A0A1J5E087_9DELT Un...  23.5    8.8  
+
+
+>KRX04496.1 KRX04496.1 Insulin-like growth factor binding protein, N-terminal 
+[Pseudocohnilembus persalinus]
+Length=1735
+
+ Score = 26.6 bits (57),  Expect = 0.88, Method: Composition-based stats.
+ Identities = 20/64 (31%), Positives = 26/64 (41%), Gaps = 17/64 (27%)
+
+Query  12   NCNTCPNLPTPCTAQLTHAPVSLY---------TAAQGTQFITGE-CTSDAECASACCGF  61
+            NC TCPN  T CT+     P   Y          A     ++ G+ CT   +C  AC   
+Sbjct  458  NCATCPNDITTCTS----CPTGFYYKSDTNECLAACPAGYYVNGDNCT---KCNKACATC  510
+
+Query  62   TSGK  65
+            T+ K
+Sbjct  511  TASK  514
+
+
+>PVG00407.1 PVG00407.1 hypothetical protein CPB86DRAFT_224458 [Serendipita 
+vermifera 'subsp. bescii']
+Length=107
+
+ Score = 23.9 bits (50),  Expect = 3.4, Method: Compositional matrix adjust.
+ Identities = 13/32 (41%), Positives = 17/32 (53%), Gaps = 0/32 (0%)
+
+Query  3   PIFKLLALLNCNTCPNLPTPCTAQLTHAPVSL  34
+           PI  LL+L   +TC + P  CT    H  V+L
+Sbjct  69  PIANLLSLTGSSTCHSQPVCCTGNEYHGLVTL  100
+
+
+>tr|A0A1J5E087|A0A1J5E087_9DELT tr|A0A1J5E087|A0A1J5E087_9DELT Uncharacterized protein OS=Deltaproteobacteria 
+bacterium CG2_30_63_29 OX=1805126 GN=AUK47_07100 
+PE=4 SV=1
+Length=1257
+
+ Score = 23.5 bits (49),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 39/120 (33%), Positives = 53/120 (44%), Gaps = 17/120 (14%)
+
+Query  48   CTSDAECASACCGFTSGKCAAPFVANERGEGCGFGDAQPNNNALNGTDGSATAGTPA---  104
+            CTS A+C S  C   +G C    V    GE C    A  +NN  NGT   A+   P    
+Sbjct  558  CTSAADCCSLSCA--AGACTLASVCASIGEACTTDTACCSNN-CNGTTCQASTSDPVCLN  614
+
+Query  105  ANETVG-EPDANARAEAAAGNGAQFITG--------PCTADADCASACCGFKSGTCAGPV  155
+            A E+   + D  +++ A      + ITG         C+ DADC S+ C  ++G CA P 
+Sbjct  615  AGESCALDGDCCSKSCADFSGALRCITGGFCRSQGEVCSTDADCCSSLC--EAGYCATPT  672
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.131    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 63364584
+
+
+  Database: sequenceDump
+    Posted date:  Sep 9, 2019  7:03 PM
+  Number of letters in database: 889,006
+  Number of sequences in database:  4,757
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
