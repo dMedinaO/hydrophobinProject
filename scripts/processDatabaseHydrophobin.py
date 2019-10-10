@@ -23,6 +23,7 @@ def createExportFile(arraySequence, idSequences, descriptionSequence, fileExport
 
 #recibimos las secuencias
 db1 = sys.argv[1]
+pathResponse = sys.argv[2]
 
 sequenceDB1 = []
 idSequence1 = []
@@ -36,4 +37,5 @@ for record in SeqIO.parse(db1, "fasta"):
         idSequence1.append(record.id)
         description1.append(record.description)
 
-createExportFile(sequenceDB1, idSequence1, description1, 'sequenceDump.fasta')
+exportData = pathResponse+"nonRedundet.fasta"
+createExportFile(sequenceDB1, idSequence1, description1, exportData)

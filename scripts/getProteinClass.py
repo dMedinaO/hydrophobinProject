@@ -27,28 +27,15 @@ def exportFile(dictSequence, nameFileSequence):
     fileExport.close()
 
 #identificar si es clase I
-def searchPatternClass(sequence):
-
-    #formo el patron de la expresion regular para la clase II
-    patternClassI = re.compile('C[A-Z]{5,7}CC[A-Z]{19,39}C[A-Z]{8,23}C[A-Z]{5}CC[A-Z]{6,18}C')
-
-    #formo el patron de la expresion regular para la clase II
-    patternClassII = re.compile('C[A-Z]{9,10}CC[A-Z]{11}C[A-Z]{16}C[A-Z]{8,9}CC[A-Z]{10}C')
+def searchPatternClass(sequence, patternClass):
 
 
-    responseClassI = patternClassI.findall(str(sequence))
-    responseClassII = patternClassII.findall(str(sequence))
+    responseClass = patternClass.findall(str(sequence))
 
-    classResponse = 0
-
-    if len(responseClassI) >0:
-        classResponse=1
-    elif len(responseClassII)>0:
-        classResponse=2
+    if len(responseClass)>0:
+        return 1
     else:
-        classResponse=-1
-
-    return classResponse
+        return 0
 
 #recibimos los parametros
 dataSequence = sys.argv[1]
@@ -57,21 +44,36 @@ pathResponse = sys.argv[2]
 elementsClassI = []#secuencias clase I
 elementsClassII = []#secuencias clase II
 otherData = []#no se puede clasificar en algun patron de los reportados
+bothData = []#presenta los dos patrones...
+
+#formo el patron de la expresion regular para la clase II
+patternClassI = re.compile('C[A-Z]{5,7}CC[A-Z]{19,39}C[A-Z]{8,23}C[A-Z]{5}CC[A-Z]{6,18}C')
+
+#formo el patron de la expresion regular para la clase II
+patternClassII = re.compile('C[A-Z]{9,10}CC[A-Z]{11}C[A-Z]{16}C[A-Z]{8,9}CC[A-Z]{10}C')
 
 #hacemos la lectura de las secuencias
 for record in SeqIO.parse(dataSequence, "fasta"):
-    responseClass = searchPatternClass(record.seq)
+    
     dictSequence = {'sequence': record.seq, 'id': record.id, 'description': record.description}
 
-    if responseClass == 1:
-        elementsClassI.append(dictSequence)
+    #evaluamos si es clase 1
+    response1 = searchPatternClass(record.seq, patternClassI)
+    response2 = searchPatternClass(record.seq, patternClassII)
 
-    elif responseClass == 2:
+    if response1 == 1:#class I
+        elementsClassI.append(dictSequence)
+    if response2 == 1:#class II
         elementsClassII.append(dictSequence)
-    else:
+
+    if response1 == 1 and response2 == 1:#ambas
+        bothData.append(dictSequence)
+
+    if response1 == 0 and response2 == 0:#ninguna
         otherData.append(dictSequence)
 
 #exportamos los files
 exportFile(elementsClassI, pathResponse+"hydrophobinsClassI.fasta")
 exportFile(elementsClassII, pathResponse+"hydrophobinsClassII.fasta")
 exportFile(otherData, pathResponse+"otherHydrophobins.fasta")
+exportFile(bothData, pathResponse+"bothDataClass.fasta")
