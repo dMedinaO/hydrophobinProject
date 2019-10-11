@@ -1,0 +1,10 @@
+INFORMACION SEQUENCE
+Largo Promedio: 202.470254958
+Largo Maximo: 1187
+Largo Minimo: 70
+Desviacion Largo: 188.257146915
+INFORMACION DOBLE CYS
+Doble Cys Promedio: 2.25779036827
+Doble Cys Maximo: 14
+Doble Cys Minimo: 2
+Desviacion Doble Cys: 1.29669560041
