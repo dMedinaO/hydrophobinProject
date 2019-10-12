@@ -1,0 +1,35 @@
+%script que recibe una matriz en formato csv con la data de la secuencia de
+%proteina codificada y con zero padding con respecto a la potencia de 2 mas
+%cercana, a cada secuencia la digitaliza empleando la transformada rapida
+%de fourier y se genera una matriz con la informacion de los espectros
+%asociada a la matriz de interes
+
+function procesFourierTransform(inputFile, potential)
+
+    %lectura de la matriz de interes
+    matrixData = csvread(inputFile);
+    [m,n] = size(matrixData);
+    
+    domainFrequence = [];
+    espectralUnilateral = [];
+    
+    for row = 1:m
+        valueConvert = matrixData(row,:);%obtener valores a transformar
+        valueFFT = fft(valueConvert, potential);
+        
+        %obtenemos los valores de los espectros bilateral y unilateral,
+        %seguido del dominio y los puntos para hacer la grafica
+        %correspondiente
+        P2 = abs(valueFFT/potential);
+        P1 = P2(1:potential/2+1);
+        P1(2:end-1) = 2*P1(2:end-1);
+        f = 0.5*(0:(potential/2))/potential;
+        P = abs(valueFFT/potential);
+        
+        domainFrequence(row) = f;
+        espectraUnilateral(row) = P1;
+        
+        break;
+    end
+    
+end
