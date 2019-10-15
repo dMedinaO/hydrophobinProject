@@ -78,7 +78,7 @@ for record in SeqIO.parse(sequenceData, "fasta"):
         matrixProperty1.append(encodingDataP1ZP)
         matrixProperty2.append(encodingDataP2ZP)
         matrixProperty3.append(encodingDataP3ZP)
-        indexSequence.append(index)
+        indexSequence.append(record.id)
     index+=1
 
 #generamos los data frame y exportamos la data
