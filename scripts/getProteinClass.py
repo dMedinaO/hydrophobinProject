@@ -46,7 +46,7 @@ elementsClassII = []#secuencias clase II
 otherData = []#no se puede clasificar en algun patron de los reportados
 bothData = []#presenta los dos patrones...
 
-#formo el patron de la expresion regular para la clase II
+#formo el patron de la expresion regular para la clase I
 patternClassI = re.compile('C[A-Z]{5,7}CC[A-Z]{19,39}C[A-Z]{8,23}C[A-Z]{5}CC[A-Z]{6,18}C')
 
 #formo el patron de la expresion regular para la clase II
@@ -54,7 +54,7 @@ patternClassII = re.compile('C[A-Z]{9,10}CC[A-Z]{11}C[A-Z]{16}C[A-Z]{8,9}CC[A-Z]
 
 #hacemos la lectura de las secuencias
 for record in SeqIO.parse(dataSequence, "fasta"):
-    
+
     dictSequence = {'sequence': record.seq, 'id': record.id, 'description': record.description}
 
     #evaluamos si es clase 1
