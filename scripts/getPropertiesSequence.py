@@ -35,6 +35,7 @@ def getFrequenceResidueForSequence(sequence):
         for i in range(len(sequence)):
             if residue == sequence[i]:
                 cont+=1
+        cont = float(cont)*100/float(len(sequence))
         arrayFrequence.append(cont)
 
     return arrayFrequence
