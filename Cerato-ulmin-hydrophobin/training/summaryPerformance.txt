@@ -1,0 +1,8 @@
+precision    recall  f1-score   support
+
+Is Protein       1.00      0.92      0.96       793
+Is Not Protein       0.00      0.00      0.00         0
+
+micro avg       0.92      0.92      0.92       793
+macro avg       0.50      0.46      0.48       793
+weighted avg       1.00      0.92      0.96       793
