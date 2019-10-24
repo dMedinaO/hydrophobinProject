@@ -31,9 +31,9 @@ for idElement in idSequences:
     #buscamos las clases en el FULL
     for i in range(len(clfFull)):
         if clfFull['indexSequence'][i] == idElement:
-            arrayClassCeratoP.append(clfFull['classCeratoP'][i])
-            arrayClassCeratoU.append(clfFull['classCeratoU'][i])
-            arrayClassH2.append(clfFull['classH2'][i])
+            arrayClassCeratoP.append(clfFull['ceratoPlatanin'][i])
+            arrayClassCeratoU.append(clfFull['ceratoUlmin'][i])
+            arrayClassH2.append(clfFull['hidroCII'][i])
             cont=1
             break
     #significa que no esta en ninguna clase

@@ -128,7 +128,7 @@ def checkClfNewSpectrum(matrixClf, espectralMin, espectralMax, confidenceInterva
 
         #clasificamos de la clase, si y solo si el contZ3 es igual al largo del espectro, esto indica que todos los elementos se encuentran dentro
         #del intervalo de confianza del espectro
-        if countZ3 >=99:
+        if countZ3 >=100:
             arrayClass.append(0)
         else:
             arrayClass.append(1)

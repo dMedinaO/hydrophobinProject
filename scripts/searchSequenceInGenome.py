@@ -12,10 +12,10 @@ for record in SeqIO.parse(nameDoc, "fasta"):
     if record.id == idSegment:
         sequenceData = record.seq
         break
-
 sequenceInGenome = ""
 
 for i in range(posInit-1, posFin+1):
+
     sequenceInGenome+= sequenceData[i]
 
 print sequenceInGenome
