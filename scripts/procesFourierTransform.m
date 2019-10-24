@@ -26,17 +26,14 @@ function procesFourierTransform(inputFile)
         f1 = 0.5*(0:n-1)/n;
         f = 0.5*(0:(n/2))/n;
         P = abs(valueFFT/n);
-        
-        size(f1)
-        size(P)
-        plot(f, P1);
+                
         domainFrequence=[f;domainFrequence];
         espectralUnilateral = [P1;espectralUnilateral];                        
-        break;
+        
     end
     
     %exportamos los archivos en formato csv
-    %csvwrite("domainFrequence.csv", domainFrequence);
-    %csvwrite("espectralUnilateral.csv", espectralUnilateral);
+    csvwrite("domainFrequence.csv", domainFrequence);
+    csvwrite("espectralUnilateral.csv", espectralUnilateral);
     
 end
